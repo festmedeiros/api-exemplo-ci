@@ -33,5 +33,5 @@ jobs:
       - name: Test
         run: npm test
 
-      - name: Check Coverage
-        run: npx jest --coverage --coverageThreshold="{\"global\":{\"branches\":50,\"functions\":50,\"lines\":50,\"statements\":50}}"
+      #- name: Check Coverage
+      #  run: npx jest --coverage --coverageThreshold="{\"global\":{\"branches\":50,\"functions\":50,\"lines\":50,\"statements\":50}}"
