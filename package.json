@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Exemplo de API NodeJs para teste de uma pipeline CI",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "build": "echo 'Building project...' && mkdir -p dist && cp -r src/* dist/",
