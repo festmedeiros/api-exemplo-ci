@@ -17,8 +17,4 @@ app.get('/api/test-2', (req, res) => {
   res.send({ message: 'Endpoint de teste 2'});
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-
 module.exports = app;
